@@ -4,10 +4,10 @@ Modeling a digital content platform similar to Netflix using UML diagrams.
 
 Bu proje, okul dersim kapsamında; karmaşık sistemleri analiz etme, soyutlama (abstraction) ve nesneye yönelik programlama (OOP) prensiplerini uygulama amacıyla geliştirilmiş bir **UML Modelleme** çalışmasıdır.
 
-## 🎯 Proje Özeti
+##  Proje Özeti
 Bu çalışma, Netflix benzeri bir dijital içerik platformunun mimarisini ele alır. Projenin ana odak noktası, bir sistemin kullanıcı, yönetici ve arka plan yönetim süreçleri arasındaki mantıksal bağları doğru bir şekilde kurgulamaktır.
 
-## 🧠 Nesneye Yönelik Yaklaşım ve Soyutlama
+##  Nesneye Yönelik Yaklaşım ve Soyutlama
 Proje geliştirilirken aşağıdaki OOP prensipleri temel alınmıştır:
 
 *   **Soyutlama (Abstraction):** `İçerik` sınıfı soyut (abstract) olarak tasarlanmış; Film ve Dizi gibi somut sınıflar bu temelden türetilmiştir.
@@ -23,25 +23,25 @@ Proje geliştirilirken aşağıdaki OOP prensipleri temel alınmıştır:
 Sistemin veri yapısını, niteliklerini ve sınıflar arası hiyerarşiyi gösterir.
 - **Kritik Sınıflar:** Kullanıcı, Yönetici, İçerik (Abstract), Film, Dizi, Profil, İzleme Listesi, Ödeme.
 
-![Sınıf Diyagramı](Diagram-Images/Class_Diagram.jpg)
+![Sınıf Diyagramı](Diagram-Images/Class_Diagram.png)
 
 ### 2. Kullanım Durumu Diyagramı (Use Case Diagram)
 Sistemin fonksiyonel gereksinimlerini aktör bazlı olarak özetler.
 - **Aktörler:** Kullanıcı (İçerik izleme, abonelik), Yönetici (İçerik/Kullanıcı yönetimi), Yönetim Sistemi (Otomatik ödeme, yedekleme).
 
-![Use Case Diyagramı](Diagram-Images/UseCase_Diagram.jpg)
+![Use Case Diyagramı](Diagram-Images/UseCase_Diagam.png)
 
 ### 3. Nesne Diyagramı (Object Diagram)
 Sistemin belirli bir andaki somut çalışma durumunu (örnek senaryo) gösterir.
 - **Senaryo:** "Kullanıcı_1" adlı üyenin aktif bir abonelik üzerinden "Inception" filmini izleme ve favorilerine ekleme süreci modellenmiştir.
 
-![Nesne Diyagramı](Diagram-Images/Object_diagram.jpg)
+![Nesne Diyagramı](Diagram-Images/Object_diagram.png)
 
 ### 4. Bileşen Diyagramı (Component Diagram)
 Sistemin fiziksel ve mantıksal mimarisini modüler yapıda sunar.
 - **Modüller:** Front-End (Kullanıcı Uygulaması/Yönetici Paneli), Back-End (Yönetim Çekirdeği), İçerik ve Oynatma İşlemleri, Finans Modülü.
 
-![Bileşen Diyagramı](Diagram-Images/compoment_Diagram.jpg)
+![Bileşen Diyagramı](Diagram-Images/Compoment_Diagram.png)
 
 ---
 
